@@ -23,7 +23,7 @@ $(function(){
 			// then call the change Post Preview function and change the posts shown
 			// this is the first post to be previewed
 			changePostPreview(".post_1","posts/helloworld.html","Hello World!","An introduction to my blog.","Posted on July 12, 2015");
-			changePostPreview(".post_2","posts/helloworld.html","Testing","test","Posted on July 15, 2020");
+			//changePostPreview(".post_2","posts/helloworld.html","Testing","test","Posted on July 15, 2020");
 
 
 		}
@@ -54,8 +54,8 @@ $(function(){
 
 			// then call the change Post Preview function and change the posts shown
 			// this is the first post to be previewed
-			changePostPreview(".post_1","posts/helloworld.html","Testing","test","Posted on July 15, 2020");
-			changePostPreview(".post_2","posts/helloworld.html","Testing","test","Posted on July 15, 2020");
+			//changePostPreview(".post_1","posts/helloworld.html","Testing","test","Posted on July 15, 2020");
+			//changePostPreview(".post_2","posts/helloworld.html","Testing","test","Posted on July 15, 2020");
 		}
 
 
