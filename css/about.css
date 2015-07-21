@@ -32,7 +32,9 @@ body{
 		}
 		
 		.jumbotron{
-			background: url('../img/about_1 copy 2.jpg') no-repeat center center !important;
+			/*background: url('../img/about_1 copy 2.jpg') no-repeat center center !important;*/
+			background: url('../img/startup-593327_1920.jpg') no-repeat center center !important;
+			
 			color: white;
 		}
 
