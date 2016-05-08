@@ -1,1 +1,1 @@
-This is my blog! Please contact me if you want to use any of the code. 
+This is my website!
