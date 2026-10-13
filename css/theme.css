@@ -1,0 +1,93 @@
+html[data-theme="dark"],
+html[data-theme="dark"] body {
+	background-color: #17191c;
+	color: #e8e8e8;
+}
+
+html[data-theme="dark"] a {
+	color: #e0e0e0;
+}
+
+html[data-theme="dark"] a:hover,
+html[data-theme="dark"] a:focus {
+	color: #8bc8ff;
+}
+
+html[data-theme="dark"] .navbar-custom {
+	background-color: #222;
+}
+
+html[data-theme="dark"] .navbar-brand,
+html[data-theme="dark"] .navbar-inverse .navbar-nav > li > a {
+	color: #f5f5f5;
+}
+
+html[data-theme="dark"] .post-preview > a,
+html[data-theme="dark"] .post-preview > .post-meta > a {
+	color: #e8e8e8;
+}
+
+html[data-theme="dark"] .post-preview > .post-meta {
+	color: #bdbdbd;
+}
+
+html[data-theme="dark"] .page-header,
+html[data-theme="dark"] hr:not(.small) {
+	border-color: #444;
+}
+
+footer .list-inline {
+	display: none;
+}
+
+.navbar-header .theme-toggle {
+	position: absolute;
+	top: 8px;
+	right: 15px;
+	z-index: 4;
+	display: inline-flex;
+	align-items: center;
+	justify-content: center;
+	width: 40px;
+	height: 34px;
+	margin: 0;
+	padding: 0;
+	border: 1px solid #777;
+	border-radius: 4px;
+	background: transparent;
+	color: #fff;
+	cursor: pointer;
+}
+
+.navbar-header .theme-toggle:hover,
+.navbar-header .theme-toggle:focus {
+	background: rgba(255, 255, 255, 0.14);
+	outline: 2px solid #8bc8ff;
+	outline-offset: 2px;
+}
+
+.theme-toggle svg {
+	width: 20px;
+	height: 20px;
+	fill: none;
+	stroke: currentColor;
+	stroke-linecap: round;
+	stroke-linejoin: round;
+	stroke-width: 1.8;
+}
+
+@media (min-width: 768px) {
+	.navbar-custom > .container {
+		position: relative;
+	}
+
+	.navbar-custom .navbar-collapse {
+		padding-right: 55px;
+	}
+}
+
+@media (max-width: 767px) {
+	.navbar-header .navbar-toggle {
+		margin-right: 55px;
+	}
+}
