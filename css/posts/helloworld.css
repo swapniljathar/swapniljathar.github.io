@@ -24,9 +24,10 @@
 		}
 
 		.navbar-brand{
-  			text-transform: lowercase;
+			text-transform: none;
 			font-size: 18px;
 			font-weight: 800;
+			font-style: italic;
 			letter-spacing: 1px;
 			font-family: 'Open Sans','Helvetica Neue',Helvetica,Arial,sans-serif;
 		}
