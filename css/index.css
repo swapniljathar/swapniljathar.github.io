@@ -46,6 +46,12 @@
 			padding: 15px;
 		}
 
+		.jumbotron .tagline span{
+			font-size: 1.35em;
+			font-weight: 800;
+			vertical-align: -0.04em;
+		}
+
 		h1,h2,h3,h4,h5,h6 {
 			font-family:'Open Sans','Helvetica Neue',Helvetica,Arial,sans-serif;
 			font-weight: 800;
